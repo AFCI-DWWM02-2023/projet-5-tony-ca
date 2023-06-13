@@ -3,42 +3,35 @@
     margin: 0;
 }
 
-.conteneur {
+.img-header {
     display: flex;
-    /* width: 100%; */
     height: 400px;
     --bs-gutter-x: 0;
   }
   
-  .image-principale {
+.image-principale {
+    display: flex;
     background-image: url('adequation/bg_header\ -\ original.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-  }
-  
-  .image-inseree {
+}
+
+.image-inseree { 
     background-image: url('adequation/logo_header.png');
-    /* background-size: cover; */
+    background-size: contain;
     background-repeat: no-repeat;
-    margin-top: 140px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 390px;
-    height: 173px;
-  }
-
-
-
+    background-position: center;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
 
 body{
-    border-left: 150px;
+    /* border-left: 150px; */
     background-color: #3c3c3c;
 } 
-
-
-
 .navbar{
     height: 70px;
     background-color: #fec88a;
@@ -122,6 +115,6 @@ h5{
     background-color: #c2c57e;
 }
 
-.double1{
+.colmargin{
     margin-top: 47px;
 }
